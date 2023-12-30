@@ -1,0 +1,19 @@
+ls -- listing
+cd -- change directory
+cp -- for copy <cp source_directory destination_directory>
+mkdir -- for making a new folder
+mv -- for moving things around <mv source_directory destination_directory>
+
+rm and rmdir -- deleting 
+    •You can skip the confirmation by typing:
+        rm –f <file>
+        But use at your own peril! There’s no undo. 
+    •To delete entire directories you need to use the –r flag,
+        just as was the case with cp.
+        rm –r <directory>
+    • You can also combine the –r and –f flags into –rf.
+    Again, careful! There’s no undo!
+
+rename <rm <old> <new>>
+
+
