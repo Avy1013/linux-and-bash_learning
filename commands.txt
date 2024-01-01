@@ -15,5 +15,24 @@ rm and rmdir -- deleting
     Again, careful! There’s no undo!
 
 rename <rm <old> <new>>
+cat -- to read
+pwd -- current working directory
+~ -- means we are in the home directory
+ls -l (-l)Flag -- for extra permission
+chmod u+x <file name> -- changing permission
 
+PIPING
+For example you wanna have something specific form the output 
+' | '   #this is called  a pipe 
+ls -l linux-and-bash_learning | grep hello
+
+IDK WHY WOULD U USE THIS But
+avy@Vaibhavs-MacBook-Pro linux-and-bash_learning % cat << EOF
+ heredoc> SBJBS
+ heredoc> JBSJBJS
+ heredoc> SKGKS
+ heredoc> EOF
+ SBJBS
+ JBSJBJS
+ SKGKS
 
