@@ -21,7 +21,8 @@ cat hello.txt
 echo -n "Word count in hello.txt: "; wc -w < hello.txt
 #echo -n "Word count in hello.txt: "; wc -w < hello.txt | tr -s "  "
 
-echo "count: "$(wc -w <<< "hello there this couts to 5")| tr -s "  "
+echo "count: "$(wc -w <<< "hello there this couts to 6")| tr -s "  "
+echo $? #exit code of the program
 
 
 
