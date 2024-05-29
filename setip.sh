@@ -10,4 +10,9 @@ read IP_ADDRESS
 export IP_ADDRESS
 
 # Optionally, you can add your 'practice' alias here
-eval ssh -i /Users/avy/Downloads/linux_practice.pem ec2-user@\$IP_ADDRESS
+
+#eval ssh -i /Users/avy/Downloads/linux_practice.pem ec2-user@\$IP_ADDRESS
+
+
+# USES AUTOSSH
+autossh -M 0 -i /Users/avy/Downloads/linux_practice.pem -o "ServerAliveInterval 60" -o "ServerAliveCountMax 2" ec2-user@$IP_ADDRESS
