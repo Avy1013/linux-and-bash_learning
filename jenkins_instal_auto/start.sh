@@ -33,4 +33,4 @@ chmod +x myscript.sh
 # runit
 EOF
 
-echo "Setup completed. Run 'runit' on the EC2 instance to execute the script."
+echo "Setup completed. Thank you!!"
