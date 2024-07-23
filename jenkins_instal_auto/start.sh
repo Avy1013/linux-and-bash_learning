@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Path to the script you want to transfer and run on the EC2 instance
-LOCAL_SCRIPT_PATH="/Users/avy/Documents/c pro/linux-and-bash_learning/jenkins_instal_auto/start.sh"
+LOCAL_SCRIPT_PATH="/Users/avy/Documents/c_pro/linux-and-bash_learning/jenkins_instal_auto/start.sh"
 REMOTE_SCRIPT_PATH="~/myscript.sh"
-JENKINS_SETUP_FILE="/Users/avy/Documents/c pro/linux-and-bash_learning/jenkins_instal_auto/jenkins_setup.sh"
-DOCKER_SETUP_FILE="/Users/avy/Documents/c pro/linux-and-bash_learning/jenkins_instal_auto/docker_setup.sh"
+JENKINS_SETUP_FILE="/Users/avy/Documents/c_pro/linux-and-bash_learning/jenkins_instal_auto/jenkins_setup.sh"
+DOCKER_SETUP_FILE="/Users/avy/Documents/c_pro/linux-and-bash_learning/jenkins_instal_auto/docker_setup.sh"
 
 # EC2 instance details
 EC2_USER="ec2-user"

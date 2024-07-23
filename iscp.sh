@@ -3,7 +3,7 @@
 # EC2 instance details
 EC2_USER="ec2-user"
 EC2_PRIVATE_KEY="/Users/avy/Downloads/linux_practice.pem"
-DEFAULT_DOCKER_SETUP_FILE="/Users/avy/Documents/c pro/linux-and-bash_learning/jenkins_instal_auto/docker_setup.sh"
+DEFAULT_DOCKER_SETUP_FILE="/Users/avy/Documents/c_pro/linux-and-bash_learning/jenkins_instal_auto/docker_setup.sh"
 REMOTE_SCRIPT_PATH="~/"
 
 # Prompt for EC2 instance IP address
